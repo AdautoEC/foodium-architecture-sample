@@ -44,7 +44,7 @@ class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>() {
         setContentView(mViewBinding.root)
 
         initView()
-        logSystemInformation()
+        logSystemInformation(applicationContext)
         observePosts()
     }
 
